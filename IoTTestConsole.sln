@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2009
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IoTDevice", "IoTDevice\IoTDevice.csproj", "{3960FF5A-BE1A-479D-96FA-E0D795C0F6D2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IoTSimulate", "IoTSimulate\IoTSimulate.csproj", "{A7E353FB-2EDE-4536-A575-55680F36212E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IoTReadCloudMessage", "IoTReadCloudMessage\IoTReadCloudMessage.csproj", "{F9F0D1DB-DDD2-4282-9516-A25FFD27B52D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReadCloudMessage", "ReadCloudMessage\ReadCloudMessage.csproj", "{EA764C9A-C9CE-4A5B-A83C-EE4AF45CF307}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3960FF5A-BE1A-479D-96FA-E0D795C0F6D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3960FF5A-BE1A-479D-96FA-E0D795C0F6D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3960FF5A-BE1A-479D-96FA-E0D795C0F6D2}.Debug|x64.ActiveCfg = Debug|x64
+		{3960FF5A-BE1A-479D-96FA-E0D795C0F6D2}.Debug|x64.Build.0 = Debug|x64
+		{3960FF5A-BE1A-479D-96FA-E0D795C0F6D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3960FF5A-BE1A-479D-96FA-E0D795C0F6D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3960FF5A-BE1A-479D-96FA-E0D795C0F6D2}.Release|x64.ActiveCfg = Release|x64
+		{3960FF5A-BE1A-479D-96FA-E0D795C0F6D2}.Release|x64.Build.0 = Release|x64
+		{A7E353FB-2EDE-4536-A575-55680F36212E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7E353FB-2EDE-4536-A575-55680F36212E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7E353FB-2EDE-4536-A575-55680F36212E}.Debug|x64.ActiveCfg = Debug|x64
+		{A7E353FB-2EDE-4536-A575-55680F36212E}.Debug|x64.Build.0 = Debug|x64
+		{A7E353FB-2EDE-4536-A575-55680F36212E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7E353FB-2EDE-4536-A575-55680F36212E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7E353FB-2EDE-4536-A575-55680F36212E}.Release|x64.ActiveCfg = Release|x64
+		{A7E353FB-2EDE-4536-A575-55680F36212E}.Release|x64.Build.0 = Release|x64
+		{F9F0D1DB-DDD2-4282-9516-A25FFD27B52D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9F0D1DB-DDD2-4282-9516-A25FFD27B52D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9F0D1DB-DDD2-4282-9516-A25FFD27B52D}.Debug|x64.ActiveCfg = Debug|x64
+		{F9F0D1DB-DDD2-4282-9516-A25FFD27B52D}.Debug|x64.Build.0 = Debug|x64
+		{F9F0D1DB-DDD2-4282-9516-A25FFD27B52D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9F0D1DB-DDD2-4282-9516-A25FFD27B52D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9F0D1DB-DDD2-4282-9516-A25FFD27B52D}.Release|x64.ActiveCfg = Release|x64
+		{F9F0D1DB-DDD2-4282-9516-A25FFD27B52D}.Release|x64.Build.0 = Release|x64
+		{EA764C9A-C9CE-4A5B-A83C-EE4AF45CF307}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA764C9A-C9CE-4A5B-A83C-EE4AF45CF307}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA764C9A-C9CE-4A5B-A83C-EE4AF45CF307}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{EA764C9A-C9CE-4A5B-A83C-EE4AF45CF307}.Debug|x64.Build.0 = Debug|Any CPU
+		{EA764C9A-C9CE-4A5B-A83C-EE4AF45CF307}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA764C9A-C9CE-4A5B-A83C-EE4AF45CF307}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA764C9A-C9CE-4A5B-A83C-EE4AF45CF307}.Release|x64.ActiveCfg = Release|Any CPU
+		{EA764C9A-C9CE-4A5B-A83C-EE4AF45CF307}.Release|x64.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {272A8036-28DD-4E26-A849-AB5AD0F521AC}
+	EndGlobalSection
+EndGlobal
